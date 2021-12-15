@@ -7,7 +7,7 @@ const generateTeam = (team) => {
     <div class="col-4 mt-4">
         <div class="card-header" style="width: 100%">
         <h2>${Manager.getName()}</h2>
-        <h4>${Manager.getRole()}</h4>
+        <h4><i class="fa-solid fa-mug-hot"></i>${Manager.getRole()}</h4>
         </div>
         <div class="card-body">
         <p>ID: ${Manager.getId()}</p>
@@ -23,7 +23,7 @@ const generateTeam = (team) => {
     <div class="col-4 mt-4">
         <div class="card-header" style="width: 100%">
         <h2>${Engineer.getName()}</h2>
-        <h4>${Engineer.getRole()}</h4>
+        <h4><i class="fa-solid fa-glasses"></i>${Engineer.getRole()}</h4>
         </div>
         <div class="card-body">
         <p>ID: ${Engineer.getId()}</p>
@@ -40,7 +40,7 @@ const generateTeam = (team) => {
     <div class="col-4 mt-4">
         <div class="card-header" style="width: 100%">
         <h2>${Intern.getName()}</h2>
-        <h4>${Intern.getRole()}</h4>
+        <h4><i class="fa-solid fa-user-graduate"></i>${Intern.getRole()}</h4>
         </div>
         <div class="card-body">
         <p>ID: ${Intern.getId()}</p>
@@ -73,8 +73,7 @@ module.exports = team => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Generator</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="./dist/style.css">
 </head>
 <body>
