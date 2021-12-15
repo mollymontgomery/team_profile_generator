@@ -7,7 +7,7 @@ const generateTeam = (team) => {
     <div class="col-4 mt-4">
         <div class="card-header" style="width: 100%">
         <h2>${Manager.getName()}</h2>
-        <h3>${Manager.getRole()}</h3>
+        <h4>${Manager.getRole()}</h4>
         </div>
         <div class="card-body">
         <p>ID: ${Manager.getId()}</p>
@@ -23,12 +23,12 @@ const generateTeam = (team) => {
     <div class="col-4 mt-4">
         <div class="card-header" style="width: 100%">
         <h2>${Engineer.getName()}</h2>
-        <h3>${Engineer.getRole()}</h3>
+        <h4>${Engineer.getRole()}</h4>
         </div>
         <div class="card-body">
         <p>ID: ${Engineer.getId()}</p>
         <p>email: <a href="mailto:${Engineer.getEmail()}">${Engineer.getEmail()}</a></p>
-        <p>Office: ${Engineer.getGithub()}</p>
+        <p>Github: ${Engineer.getGithub()}</p>
         </div>
     </div>
     `
@@ -40,12 +40,12 @@ const generateTeam = (team) => {
     <div class="col-4 mt-4">
         <div class="card-header" style="width: 100%">
         <h2>${Intern.getName()}</h2>
-        <h3>${Intern.getRole()}</h3>
+        <h4>${Intern.getRole()}</h4>
         </div>
         <div class="card-body">
         <p>ID: ${Intern.getId()}</p>
         <p>email: <a href="mailto:${Intern.getEmail()}">${Intern.getEmail()}</a></p>
-        <p>Office: ${Intern.getSchool()}</p>
+        <p>School: ${Intern.getSchool()}</p>
         </div>
     </div>
     `
@@ -85,7 +85,7 @@ module.exports = team => {
     </header>
 <main>
     <div class='container'>
-        <div class="row justify-content-center" id="team-card"
+        <div class="row justify-content-center" id="team-card">
     ${generateTeam(team)}
     </div>
     </div>

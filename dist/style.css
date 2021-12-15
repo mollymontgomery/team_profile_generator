@@ -18,7 +18,7 @@ body {
 }
 
 .navbar-info {
-    font-size: 50px
+    font-size: 30px
 }
 
 head {
@@ -30,5 +30,6 @@ head {
 .container {
     margin: 100px auto;
     justify-content: space-evenly;
+    text-align: center;
     display: flex;
 }
