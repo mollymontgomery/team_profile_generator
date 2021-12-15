@@ -11,6 +11,11 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.navbar {
+    background-color: var(--primary);
+    color: var(--secondary)
+}
+
 head {
     background-color: var(--primary);
     color: var(--secondary)

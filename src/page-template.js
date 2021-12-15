@@ -22,6 +22,7 @@ const generateTeam = (team) => {
         return `
     <div class="card col" style="width: 250px">
         <div class="card-header" style="width: 100%">
+        <h2>${Engineer.getRole()}</h2>
         <h2>${Engineer.getName()}</h2>
         </div>
         <div class="card-body">
@@ -38,6 +39,7 @@ const generateTeam = (team) => {
         return `
     <div class="card col" style="width: 250px">
         <div class="card-header" style="width: 100%">
+        <h2>${Intern.getRole()}</h2>
         <h2>${Intern.getName()}</h2>
         </div>
         <div class="card-body">
@@ -65,14 +67,15 @@ const generateTeam = (team) => {
 module.exports = team => {
     return `
     
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <title>Team Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet: href="./style.css">
 </head>
 <body>
     <header>
