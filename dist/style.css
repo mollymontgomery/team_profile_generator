@@ -11,9 +11,14 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.navbar {
+#navbar {
     background-color: var(--primary);
-    color: var(--secondary)
+    color: var(--secondary);
+    justify-content: center;
+}
+
+.navbar-info {
+    font-size: 50px
 }
 
 head {
