@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: lightgray;
+    --secondary: white;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+head {
+    background-color: var(--primary);
+    color: var(--secondary)
+}
+
+
+.container {
+    margin: 100px auto;
+    justify-content: space-evenly;
+    display: flex;
+}
