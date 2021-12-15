@@ -122,7 +122,7 @@ function createTeam(){
     if(!fs.existsSync(output)){
         fs.mkdirSync(output)
     }
-    fs.writeFileSync(outputPath, render(team), "utf-8")
+    fs.writeFileSync(outputPath, generatePage(team), "utf-8")
 }
 
 
