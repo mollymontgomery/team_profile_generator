@@ -83,7 +83,7 @@ function addEngineer() {
             message: "What is your enigneer's github username?",
         }
     ]).then(answers => {
-        const engineer = new Engineer(answers.engineerName, answers.engineerId, answers.enigineerEmail, answers.github)
+        const engineer = new Engineer(answers.engineerName, answers.engineerId, answers.engineerEmail, answers.github)
         team.push(engineer)
         employeeQuestions()
     })
