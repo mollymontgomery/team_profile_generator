@@ -20,6 +20,11 @@
 
   ## Usage
   In the command line fill out the questions about your team. 
+  
+
+https://user-images.githubusercontent.com/91499800/146304524-0bd46384-ca8a-4e47-b520-f65ba4712da0.mp4
+
+
 
   ## Contributions
   undefined
