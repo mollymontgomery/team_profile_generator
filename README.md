@@ -26,11 +26,8 @@ https://user-images.githubusercontent.com/91499800/146304524-0bd46384-ca8a-4e47-
 
 
 
-  ## Contributions
-  undefined
-
   ## Tests
-  npm test for the constructors.
+  Run npm test for the constructors.
 
   ## Questions
   If you have any questions regarding the repo please contact mollymontgomery515@gmail.com and see my other work on my github at [mollymontgomery](https://www.github.com/mollymontgomery) 
